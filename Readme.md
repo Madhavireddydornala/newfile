@@ -1,6 +1,9 @@
-# Heading 1
-## Heading 2
-### Heading 3
+# heading 1
+## heading 2
+### heading 3
+#### heading 4
+##### heading 5
+###### heading 6
 __bold__
 _italic_
 ~~999~~ 699
@@ -31,6 +34,7 @@ un ordered list
 - three
 sub unordered list
 
+
     - one
  
     - two
@@ -46,4 +50,9 @@ to place our images
 
 ![LCO](https://seeromega.com/wp-content/uploads/2020/10/Websites-to-Learn-Coding-Online-for-Free-1.jpg)
 
+![MCO](https://seeromega.com/wp-content/uploads/2020/10/Websites-to-Learn-Coding-Online-for-Free-1.jpg)
+
+
 >hello
+
+
