@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Document</title>
+    <style>
+        /* universal selector */
+
+        * {
+            background-color: rgb(0, 255, 26);
+            color: rgb(65, 23, 204);
+        }
+
+        /* individual selector */
+        p {
+            background-color: rgb(127, 19, 229);
+        }
+
+        /* class and id selector */
+        .warning {
+            background-color: rgb(42, 230, 168);
+        }
+
+        /* id selector */
+        #warning {
+            background-color: black;
+
+        }
+
+        /* and selector chained */
+        li.bg {
+            background-color: rgb(238, 139, 25);
+            color: brown;
+        }
+
+        /* combined selector */
+        span,
+        li {
+            background-color: burlywood;
+
+        }
+
+        /* inside an element */
+        div ul li {
+            background-color: crimson;
+        }
+
+        /* direct child */
+        div>li {
+            background-color: blueviolet;
+        }
+
+        /* sibling ~ or + */
+        .sibling+p {
+            background-color: darkmagenta;
+
+        }
+
+        .sibling~ {
+            background-color: fuchsia;
+        }
+        /*before */
+
+        p::before {
+            content: 'srikanth';
+            color:white;
+        }
+        /* hover */
+        p:hover{
+            background-color: cyan;
+        }
+        /* focus*/
+        input:focus{
+            background-color: cornflowerblue;
+            color: brown;
+        }
+        /* first child, last child*/
+        li:last-child{
+            background-color: rgb(210, 31, 156);
+        }
+        /* custom attributes */
+        [bgm]{
+            background-color: yellow;
+        }
+        .big{
+            position: relative;
+            top:15px
+        }
+        /* position */
+        .big{
+            position: relative;
+            top: 15px;
+            
+
+        }
+        .one{
+            position:relative;
+            top: 10px;
+
+        }
+        .two{
+            position: fixed;
+            top: 15px;
+        }
+        .three{
+            position: fixed;
+            top: 30px;
+        }
+        .notification {
+  
+  
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+
+
+.notification .badge {
+    position: absolute;
+  
+  top: 2px;
+  right: 2px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background:black;
+  color: white;
+}
+.con{
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    border-radius: 0;
+    border-width: 0;
+    
+    
+}
+ .btn{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: yellow;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+   
+
+    
+ }   
+ .max{
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    padding: 15px;
+    border-radius: 20px;
+    border-width: thin;
+ }   
+
+  
+  
+
+
+  
+
+ 
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>setting up</h1>
+    <p>text overloaded</p>
+    <input type="text" placeholder="mail" />
+    <b>text bold</b>
+    <i>italic</i>
+    <strong>important</strong>
+    <em>emphasise</em>
+    <mark>marked</mark>
+    <del>deleted</del>dele
+    <sub>test</sub>
+    <sup>test</sup>
+    <span>overloaded elements</span>
+    <ul>
+        <li class="warning">tase</li>
+        <li id="warning">tase</li>
+        <li class="bg">cgdwqyth</li>
+        <li>vdhcjm</li>
+        <li>uijksx</li>
+    </ul>
+    <img src="c:\Users\madha\Downloads\image1.png" alt= />
+    <img src="c:\Users\madha\Downloads\lco.png" height="50vh" width="50vh" alt="c:\Users\madha\Downloads\lco.png" />
+    <a href="https://youtube.com">
+        <img src="c:\Users\madha\Downloads\image1.png" alt="" />
+
+    </a>
+    <audio controls src="c:\Users\madha\Downloads\sample-audio.mp3"></audio>
+    <video controls src="c:\Users\madha\Downloads\sample-video.mp4"></video>
+    <iframe width="50vh" height="50vh" src="https://www.youtube.com/embed/zXra6lBGzJg?si=a5p5sfCxLmYhP63E"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <table border>
+        <tr>
+            <td>1</td>
+            <td>no</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>no</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>no</td>
+
+        </tr>
+    </table>
+    <form action="#">
+        Name: <input type="text" name="" placeholder="write ur name" id="" />
+    </form>
+    <div>
+        <li>madhureddy</li>
+        <ul>
+            <li>gyjwhcsbmnx</li>
+            <li>fuydjcavhnz</li>
+        </ul>
+    </div>
+    <p class="sibling">yfvncaqwfavz</p>
+    <p>fakchmbzygjhbn</p>
+    <p>vjhnrfyiwhskdnztegs</p>
+    <p bgm>fjvhbmadvzx</p>
+    <p class="big" style="color: brown;">big</p>
+    <p class="one"style="color: brown;">one</p>
+    <p class="two"style="color: pink;">two</p>
+    <p class="three"style="color: red;">three</p>
+
+
+
+    <marquee  direction="down" style="color: red;">Hello, Welcome to Html</marquee>
+    
+  
+    <a href="#" class="notification">
+        <button class="con">ineuron</button>
+        <button class="badge">7</button>
+      </a>
+      <button class="btn">Hover me</button>
+      <button class="max">Explore More</button>
+      
+        
+    </body>
+
+</html>
